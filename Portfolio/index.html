@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Aditya Bhadade — Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Jost:wght@300;400;500;600&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- ═══════════════════════════════════════ NAV ═══ -->
+  <nav class="nav">
+    <span class="nav__logo">AKi.Dev<span class="nav__dot">.</span></span>
+    <ul class="nav__links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#certifications">Certifications</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- ═══════════════════════════════════════ HERO ══ -->
+  <section class="hero" id="home">
+    <div class="hero__overlay"></div>
+    <div class="hero__content">
+      <div class="hero__photo-wrap">
+        <img src="PVP.jpg" alt="Aditya Bhadade" class="hero__photo" />
+      </div>
+      <p class="hero__label">Computer Engineering Student</p>
+      <h1 class="hero__name">Aditya<br /><em>Bhadade</em></h1>
+      <p class="hero__tagline">Aspiring Software Developer &amp; Problem Solver</p>
+      <a href="#projects" class="hero__cta">View Work</a>
+    </div>
+    <div class="hero__scroll-hint">
+      <span>scroll</span>
+      <div class="hero__scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════ ABOUT ═ -->
+  <section class="about" id="about">
+    <div class="container about__grid">
+      <div class="about__label-col">
+        <span class="section-label">01 — About</span>
+      </div>
+      <div class="about__text-col">
+        <h2 class="section-heading">Building practical solutions,<br /><em>one line at a time.</em></h2>
+        <p class="about__body">
+          I am a Computer Engineering student at <strong>MIT Academy of Engineering (MITAOE)</strong> with a strong
+          interest in building practical solutions using Python and web technologies. My work spans data
+          analysis, automation, and front-end development — driven by curiosity and a desire to create
+          things that genuinely matter.
+        </p>
+        <p class="about__body">
+          When I'm not writing code, I'm exploring datasets, working through algorithmic challenges,
+          or learning something new in the ever-evolving world of software.
+        </p>
+        <div class="about__meta">
+          <div class="about__meta-item">
+            <span class="about__meta-key">College</span>
+            <span class="about__meta-val">MITAOE, Pune</span>
+          </div>
+          <div class="about__meta-item">
+            <span class="about__meta-key">Focus</span>
+            <span class="about__meta-val">Python · Data · Web</span>
+          </div>
+          <div class="about__meta-item">
+            <span class="about__meta-key">Status</span>
+            <span class="about__meta-val">Learning New Skills</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════ SKILLS ═ -->
+  <section class="skills" id="skills">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-label">02 — Skills</span>
+        <h2 class="section-heading">What I work with</h2>
+      </div>
+      <div class="skills__grid">
+
+        <div class="skill-card">
+          <div class="skill-card__icon">
+            <svg viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M8 10h24M8 20h16M8 30h20" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+            </svg>
+          </div>
+          <h3 class="skill-card__name">Python</h3>
+          <p class="skill-card__desc">Scripting, automation, data processing, and backend logic.</p>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-card__icon">
+            <svg viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect x="8" y="8" width="24" height="24" rx="2" stroke="currentColor" stroke-width="2"/>
+              <path d="M14 20l4 4 8-8" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </div>
+          <h3 class="skill-card__name">C Language</h3>
+          <p class="skill-card__desc">Fundamentals of systems programming and low-level logic.</p>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-card__icon">
+            <svg viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M10 12l6 8-6 8M20 28h10" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </div>
+          <h3 class="skill-card__name">HTML &amp; CSS</h3>
+          <p class="skill-card__desc">Semantic markup, responsive design, and clean interfaces.</p>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-card__icon">
+            <svg viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="20" cy="20" r="12" stroke="currentColor" stroke-width="2"/>
+              <path d="M20 14v6l4 4" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+            </svg>
+          </div>
+          <h3 class="skill-card__name">NumPy &amp; Pandas</h3>
+          <p class="skill-card__desc">Numerical computing and structured data manipulation.</p>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-card__icon">
+            <svg viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M8 30l7-10 5 6 5-8 7 12" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </div>
+          <h3 class="skill-card__name">Data Visualization</h3>
+          <p class="skill-card__desc">Turning raw data into clear, insightful visual stories.</p>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-card__icon">
+            <svg viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M20 8l3 9h9l-7 5 3 9-8-6-8 6 3-9-7-5h9z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>
+            </svg>
+          </div>
+          <h3 class="skill-card__name">Problem Solving</h3>
+          <p class="skill-card__desc">Analytical thinking and structured approaches to challenges.</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════ PROJECTS ═ -->
+  <section class="projects" id="projects">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-label">03 — Projects</span>
+        <h2 class="section-heading">Selected Work</h2>
+      </div>
+      <div class="projects__list">
+
+        <article class="project-item">
+          <div class="project-item__number">01</div>
+          <div class="project-item__body">
+            <h3 class="project-item__title">Python Lab Work</h3>
+            <p class="project-item__desc">
+              A comprehensive collection of Python programming exercises completed via the
+              <strong>CodeTantra</strong> platform — covering fundamentals, data structures,
+              file I/O, and object-oriented design.
+            </p>
+            <div class="project-item__tags">
+              <span class="tag">Python</span>
+              <span class="tag">CodeTantra</span>
+            </div>
+          </div>
+          <a href="#" class="project-item__link" aria-label="View project">→</a>
+        </article>
+
+        <article class="project-item">
+          <div class="project-item__number">02</div>
+          <div class="project-item__body">
+            <h3 class="project-item__title">OpinRank Dataset Analysis</h3>
+            <p class="project-item__desc">
+              Analyzed the <strong>OpinRank dataset</strong> using NumPy and Pandas to extract
+              patterns, handle missing values, and produce aggregate insights from large-scale
+              review data.
+            </p>
+            <div class="project-item__tags">
+              <span class="tag">NumPy</span>
+              <span class="tag">Pandas</span>
+              <span class="tag">Data Analysis</span>
+            </div>
+          </div>
+          <a href="#" class="project-item__link" aria-label="View project">→</a>
+        </article>
+
+        <article class="project-item">
+          <div class="project-item__number">03</div>
+          <div class="project-item__body">
+            <h3 class="project-item__title">Question Answering System</h3>
+            <p class="project-item__desc">
+              Built a context-aware <strong>Question Answering system</strong> using Hugging Face
+              Transformers — exploring NLP pipelines, pre-trained models, and inference on
+              custom datasets.
+            </p>
+            <div class="project-item__tags">
+              <span class="tag">Python</span>
+              <span class="tag">Hugging Face</span>
+              <span class="tag">NLP</span>
+            </div>
+          </div>
+          <a href="#" class="project-item__link" aria-label="View project">→</a>
+        </article>
+
+        <article class="project-item">
+          <div class="project-item__number">04</div>
+          <div class="project-item__body">
+            <h3 class="project-item__title">Dataset Analysis Project</h3>
+            <p class="project-item__desc">
+              End-to-end data analysis pipeline — from data loading and cleaning to statistical
+              exploration and visualization — demonstrating proficiency with the Python data stack.
+            </p>
+            <div class="project-item__tags">
+              <span class="tag">Pandas</span>
+              <span class="tag">Matplotlib</span>
+              <span class="tag">EDA</span>
+            </div>
+          </div>
+          <a href="#" class="project-item__link" aria-label="View project">→</a>
+        </article>
+
+        <article class="project-item">
+          <div class="project-item__number">05</div>
+          <div class="project-item__body">
+            <h3 class="project-item__title">Portfolio Website</h3>
+            <p class="project-item__desc">
+              Designed and built this personal portfolio from scratch using semantic <strong>HTML5</strong>
+              and <strong>CSS</strong> — focusing on clean layout, responsive design, and professional
+              presentation.
+            </p>
+            <div class="project-item__tags">
+              <span class="tag">HTML5</span>
+              <span class="tag">CSS</span>
+              <span class="tag">Responsive</span>
+            </div>
+          </div>
+          <a href="#" class="project-item__link" aria-label="View project">→</a>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════ CERT ═══ -->
+  <section class="cert" id="certifications">
+    <div class="container cert__inner">
+      <span class="section-label">04 — Certifications</span>
+      <div class="cert__card">
+        <div class="cert__badge">
+          <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="24" cy="24" r="20" stroke="currentColor" stroke-width="2"/>
+            <path d="M17 24l5 5 9-10" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </div>
+        <div class="cert__info">
+          <h3 class="cert__title">Python Essentials Course</h3>
+          <p class="cert__issuer">Cisco Networking Academy</p>
+          <p class="cert__desc">
+            Completed Python Essentials 1 &amp; 2 courses, covering core programming concepts,
+            data types, functions, OOP, and practical scripting applications.
+          </p>
+        </div>
+        <button class="cert__badge-label cert__verify-btn" id="cert-verify-btn">View Certificates</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════ CERT MODAL ═ -->
+  <div class="cert-modal" id="cert-modal">
+    <div class="cert-modal__overlay" id="cert-modal-overlay"></div>
+    <div class="cert-modal__content">
+      <button class="cert-modal__close" id="cert-modal-close">✕</button>
+      <h2 class="cert-modal__title">My Certifications</h2>
+      <div class="cert-modal__grid">
+        
+        <div class="cert-modal__item">
+          <div class="cert-modal__icon">
+            <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="24" cy="24" r="20" stroke="currentColor" stroke-width="2"/>
+              <path d="M17 24l5 5 9-10" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </div>
+          <h3 class="cert-modal__cert-title">Python Essentials 1</h3>
+          <p class="cert-modal__cert-issuer">Cisco Networking Academy</p>
+          <p class="cert-modal__cert-text">
+            Foundations of Python programming including syntax, data types, control flow, functions, and basic OOP concepts.
+          </p>
+          <div class="cert-modal__cert-actions">
+            <button class="cert-modal__cert-btn cert-modal__cert-btn--view" onclick="openCertImage('Python_Essentials_1_certificate_adityabhadade.jpg', 'Python Essentials 1')">
+              👁 View Certificate
+            </button>
+            <a href="Python_Essentials_1_certificate_adityabhadade.pdf" download class="cert-modal__cert-btn cert-modal__cert-btn--download">
+              ⬇ Download PDF
+            </a>
+          </div>
+        </div>
+
+        <div class="cert-modal__item">
+          <div class="cert-modal__icon">
+            <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="24" cy="24" r="20" stroke="currentColor" stroke-width="2"/>
+              <path d="M17 24l5 5 9-10" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </div>
+          <h3 class="cert-modal__cert-title">Python Essentials 2</h3>
+          <p class="cert-modal__cert-issuer">Cisco Networking Academy</p>
+          <p class="cert-modal__cert-text">
+            Advanced Python covering data structures, file handling, modules, exceptions, and professional development practices.
+          </p>
+          <div class="cert-modal__cert-actions">
+            <button class="cert-modal__cert-btn cert-modal__cert-btn--view" onclick="openCertImage('Python_Essentials_2_certificate_adityabhadade.jpg', 'Python Essentials 2')">
+              👁 View Certificate
+            </button>
+            <a href="Python_Essentials_2_certificate_adityabhadade.pdf" download class="cert-modal__cert-btn cert-modal__cert-btn--download">
+              ⬇ Download PDF
+            </a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+  <!-- ═══════════════════════════════════════ CERT IMAGE VIEWER ═ -->
+  <div class="cert-image-modal" id="cert-image-modal">
+    <div class="cert-image-modal__overlay" id="cert-image-overlay"></div>
+    <div class="cert-image-modal__content">
+      <button class="cert-image-modal__close" id="cert-image-close">✕</button>
+      <h3 class="cert-image-modal__title" id="cert-image-title">Certificate</h3>
+      <img class="cert-image-modal__image" id="cert-image" src="" alt="Certificate" />
+    </div>
+  </div>
+
+  <!-- ═══════════════════════════════════════ CONTACT ═ -->
+  <section class="contact" id="contact">
+    <div class="contact__bg-img"></div>
+    <div class="contact__overlay"></div>
+    <div class="container contact__inner">
+      <span class="section-label contact__label-light">05 — Contact</span>
+      <h2 class="contact__heading">Let's connect<em>.</em></h2>
+      <p class="contact__sub">
+        I'm actively learning new skills and taking on exciting projects. Feel free to reach out — I'd love to chat.
+      </p>
+      <div class="contact__links">
+        <a href="mailto:adityabhadade.org@gmail.com" class="contact__link">
+          <span class="contact__link-label">Email</span>
+          <span class="contact__link-value">adityabhadade.org@gmail.com</span>
+        </a>
+        <a href="https://github.com/AKi-Dev-07" target="_blank" rel="noopener" class="contact__link">
+          <span class="contact__link-label">GitHub</span>
+          <span class="contact__link-value">github.com/AKi-Dev-07</span>
+        </a>
+        <a href="https://linkedin.com/in/aki-dev/" target="_blank" rel="noopener" class="contact__link">
+          <span class="contact__link-label">LinkedIn</span>
+          <span class="contact__link-value">linkedin.com/in/aki-dev</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════ FOOTER ═ -->
+  <footer class="footer">
+    <p>© 2025 Aditya Bhadade. Designed &amp; Built with care.</p>
+  </footer>
+
+  <script>
+    // Certification Modal Handler
+    const certVerifyBtn = document.getElementById('cert-verify-btn');
+    const certModal = document.getElementById('cert-modal');
+    const certModalOverlay = document.getElementById('cert-modal-overlay');
+    const certModalClose = document.getElementById('cert-modal-close');
+
+    // Open modal
+    certVerifyBtn.addEventListener('click', () => {
+      certModal.classList.add('cert-modal--active');
+    });
+
+    // Close modal on close button
+    certModalClose.addEventListener('click', () => {
+      certModal.classList.remove('cert-modal--active');
+    });
+
+    // Close modal on overlay click
+    certModalOverlay.addEventListener('click', () => {
+      certModal.classList.remove('cert-modal--active');
+    });
+
+    // Close modal on Escape key
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape' && certModal.classList.contains('cert-modal--active')) {
+        certModal.classList.remove('cert-modal--active');
+      }
+    });
+
+    // Certificate Image Viewer
+    const certImageModal = document.getElementById('cert-image-modal');
+    const certImageOverlay = document.getElementById('cert-image-overlay');
+    const certImageClose = document.getElementById('cert-image-close');
+    const certImage = document.getElementById('cert-image');
+    const certImageTitle = document.getElementById('cert-image-title');
+
+    function openCertImage(imagePath, certName) {
+      certImage.src = imagePath;
+      certImageTitle.textContent = certName;
+      certImageModal.classList.add('cert-image-modal--active');
+    }
+
+    // Close image viewer on close button
+    certImageClose.addEventListener('click', () => {
+      certImageModal.classList.remove('cert-image-modal--active');
+    });
+
+    // Close image viewer on overlay click
+    certImageOverlay.addEventListener('click', () => {
+      certImageModal.classList.remove('cert-image-modal--active');
+    });
+
+    // Close image viewer on Escape key
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape' && certImageModal.classList.contains('cert-image-modal--active')) {
+        certImageModal.classList.remove('cert-image-modal--active');
+      }
+    });
+  </script>
+
+</body>
+</html>
